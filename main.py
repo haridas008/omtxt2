@@ -22,10 +22,10 @@ import re
 import os
 
 bot = Client("bot",
-             bot_token= "7088327624:AAGNro0ZJqhPivrWgTs9cTPOSAG1nFdqJHo",
+             bot_token= "7013245438:AAGzhyP4LeU-fodq-szE1whnvXCsuLiGw9M",
              api_id=10499690,
              api_hash= "87d0414dc159c10225cac921edde640a")
-auth_users = [5829511291,835202652,-1002049668043]
+auth_users = [5457168404,6055613126,-1002047950889]
 
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
